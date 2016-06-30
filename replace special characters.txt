@@ -1,0 +1,360 @@
+Sub replacesymbol()
+
+'
+
+' a acute big
+    Cells.Replace What:="Á", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a acute small
+    Cells.Replace What:="á", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a brevis small
+    Cells.Replace What:="ă", Replacement:=ChrW(259), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a cedilla big
+    Cells.Replace What:="Ą", Replacement:=ChrW(260), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a cedilla small
+    Cells.Replace What:="ą", Replacement:=ChrW(261), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a circumflex big
+    Cells.Replace What:="Â", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a circumflex small
+    Cells.Replace What:="â", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a grave small
+    Cells.Replace What:="� ", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a macron big
+    Cells.Replace What:="Ā", Replacement:=ChrW(256), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a macron small
+    Cells.Replace What:="ā", Replacement:=ChrW(257), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a ring big
+    Cells.Replace What:="Å", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a ring small
+    Cells.Replace What:="å", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a tilde small
+    Cells.Replace What:="ã", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a umlaut big
+    Cells.Replace What:="Ä", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' a umlaut small
+    Cells.Replace What:="ä", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' ae ligature small
+    Cells.Replace What:="æ", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' ae ligature big
+    Cells.Replace What:="Æ", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' c acute big
+    Cells.Replace What:="Ć", Replacement:=ChrW(262), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' c acute small
+    Cells.Replace What:="ć", Replacement:=ChrW(263), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' c caron big
+    Cells.Replace What:="Č", Replacement:=ChrW(268), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' c caron small
+    Cells.Replace What:="č", Replacement:=ChrW(269), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' c cedilla big
+    Cells.Replace What:="Ç", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' c cedilla small
+    Cells.Replace What:="ç", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' d dash big
+    Cells.Replace What:="Đ", Replacement:=ChrW(272), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' d dash small
+    Cells.Replace What:="đ", Replacement:=ChrW(273), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' dh small small
+    Cells.Replace What:="ð", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e acute big
+    Cells.Replace What:="É", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e acute small
+    Cells.Replace What:="é", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e caron small
+    Cells.Replace What:="ě", Replacement:=ChrW(283), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e cedilla small
+    Cells.Replace What:="ę", Replacement:=ChrW(281), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e circumflex small
+    Cells.Replace What:="ê", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e grave big
+    Cells.Replace What:="È", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e grave small
+    Cells.Replace What:="è", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e macron big
+    Cells.Replace What:="Ē", Replacement:=ChrW(274), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e macron small
+    Cells.Replace What:="ē", Replacement:=ChrW(275), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e point small
+    Cells.Replace What:="ė", Replacement:=ChrW(279), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e turned big
+    Cells.Replace What:="Ə", Replacement:=ChrW(399), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e turned small
+    Cells.Replace What:="ə", Replacement:=ChrW(601), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+    Cells.Replace What:="ǝ", Replacement:=ChrW(601), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' e umlaut small
+    Cells.Replace What:="ë", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' g brevis small
+    Cells.Replace What:="ğ", Replacement:=ChrW(287), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' g point big
+    Cells.Replace What:="� ", Replacement:=ChrW(288), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' g point small
+    Cells.Replace What:="ġ", Replacement:=ChrW(289), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' h macron big
+    Cells.Replace What:="Ħ", Replacement:=ChrW(294), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' h macron small
+    Cells.Replace What:="ħ", Replacement:=ChrW(295), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' i acute big
+    Cells.Replace What:="Í", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' i acute small
+    Cells.Replace What:="�", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' i brevis small
+    Cells.Replace What:="�", Replacement:=ChrW(301), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' i circumflex big
+    Cells.Replace What:="Î", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' i circumflex small
+    Cells.Replace What:="î", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' i grave small
+    Cells.Replace What:="ì", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' i macron big
+    Cells.Replace What:="Ī", Replacement:=ChrW(298), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' i macron small
+    Cells.Replace What:="ī", Replacement:=ChrW(299), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' i pointed big
+    Cells.Replace What:="İ", Replacement:=ChrW(304), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' i pointless small
+    Cells.Replace What:="ı", Replacement:=ChrW(305), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' i umlaut small
+    Cells.Replace What:="ï", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' k cedilla big
+    Cells.Replace What:="Ķ", Replacement:=ChrW(310), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' k cedilla small
+    Cells.Replace What:="ķ", Replacement:=ChrW(311), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' l cedilla small
+    Cells.Replace What:="ļ", Replacement:=ChrW(316), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' l slash big
+    Cells.Replace What:="Ł", Replacement:=ChrW(321), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' l slash small
+    Cells.Replace What:="ł", Replacement:=ChrW(322), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' n acute small
+    Cells.Replace What:="ń", Replacement:=ChrW(324), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' n caron small
+    Cells.Replace What:="ň", Replacement:=ChrW(328), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' n cedilla small
+    Cells.Replace What:="ņ", Replacement:=ChrW(326), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' n tilde big
+    Cells.Replace What:="Ñ", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' n tilde small
+    Cells.Replace What:="ñ", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o acute big
+    Cells.Replace What:="Ó", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o acute small
+    Cells.Replace What:="ó", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o brevis big
+    Cells.Replace What:="Ŏ", Replacement:=ChrW(334), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o brevis small
+    Cells.Replace What:="ŏ", Replacement:=ChrW(335), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o circumflex small
+    Cells.Replace What:="ô", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o double acute big
+    Cells.Replace What:="Ö", Replacement:=ChrW(336), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o double acute small
+    Cells.Replace What:="ő", Replacement:=ChrW(337), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o grave small
+    Cells.Replace What:="ò", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o macron big
+    Cells.Replace What:="Ō", Replacement:=ChrW(332), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o macron small
+    Cells.Replace What:="ō", Replacement:=ChrW(333), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o slash big
+    Cells.Replace What:="Ø", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o slash small
+    Cells.Replace What:="ø", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o tilde small
+    Cells.Replace What:="õ", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' o umlaut small
+    Cells.Replace What:="ö", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' r caron big
+    Cells.Replace What:="Ř", Replacement:=ChrW(344), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' r caron small
+    Cells.Replace What:="ř", Replacement:=ChrW(345), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' r cedilla small
+    Cells.Replace What:="ŗ", Replacement:=ChrW(343), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' s acute big
+    Cells.Replace What:="Ś", Replacement:=ChrW(346), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' s acute small
+    Cells.Replace What:="ś", Replacement:=ChrW(347), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' s caron big
+    Cells.Replace What:="� ", Replacement:=ChrW(352), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' s caron small
+    Cells.Replace What:="š", Replacement:=ChrW(353), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' s cedilla big
+    Cells.Replace What:="Ş", Replacement:=ChrW(350), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' s cedilla small
+    Cells.Replace What:="ş", Replacement:=ChrW(351), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' sz ligature small
+    Cells.Replace What:="ß", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' t cedilla big
+    Cells.Replace What:="Ţ", Replacement:=ChrW(354), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' t cedilla small
+    Cells.Replace What:="ţ", Replacement:=ChrW(355), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' thorn big
+    Cells.Replace What:="Þ", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u acute big
+    Cells.Replace What:="Ú", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u acute small
+    Cells.Replace What:="ú", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u brevis big
+    Cells.Replace What:="Ŭ", Replacement:=ChrW(364), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u brevis small
+    Cells.Replace What:="�", Replacement:=ChrW(365), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u cedilla small
+    Cells.Replace What:="ų", Replacement:=ChrW(371), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u circumflex small
+    Cells.Replace What:="û", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u double acute small
+    Cells.Replace What:="ű", Replacement:=ChrW(369), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u grave small
+    Cells.Replace What:="ù", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u macron big
+    Cells.Replace What:="Ū", Replacement:=ChrW(362), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u macron small
+    Cells.Replace What:="ū", Replacement:=ChrW(363), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u ring small
+    Cells.Replace What:="ů", Replacement:=ChrW(367), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u umlaut big
+    Cells.Replace What:="Ü", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' u umlaut small
+    Cells.Replace What:="ü", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' y acute small
+    Cells.Replace What:="ý", Replacement:="�", LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' z acute small
+    Cells.Replace What:="ź", Replacement:=ChrW(378), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' z caron big
+    Cells.Replace What:="Ž", Replacement:=ChrW(381), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' z caron small
+    Cells.Replace What:="ž", Replacement:=ChrW(382), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' z point big
+    Cells.Replace What:="Ż", Replacement:=ChrW(379), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' z point small
+    Cells.Replace What:="ż", Replacement:=ChrW(380), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' cedilla
+    Cells.Replace What:="̨", Replacement:=ChrW(808), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' diaresis
+    Cells.Replace What:="̈", Replacement:=ChrW(776), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' halfcircle, right open
+    Cells.Replace What:="´", Replacement:=ChrW(703), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' macron
+    Cells.Replace What:="̄", Replacement:=ChrW(772), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' macron below
+    Cells.Replace What:="̱", Replacement:=ChrW(817), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+' apostroph
+    Cells.Replace What:="ʼ", Replacement:=ChrW(700), LookAt:=xlPart, SearchOrder _
+        :=xlByRows, MatchCase:=True
+
+End Sub
+
